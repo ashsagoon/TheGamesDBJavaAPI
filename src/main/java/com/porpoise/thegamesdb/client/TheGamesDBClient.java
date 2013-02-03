@@ -1,7 +1,8 @@
 package com.porpoise.thegamesdb.client;
 
 
-import com.porpoise.thegamesdb.schema.Data;
+import com.porpoise.thegamesdb.schema.GameData;
+import com.porpoise.thegamesdb.schema.GamesListData;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -27,19 +28,35 @@ public class TheGamesDBClient {
         httpClient = new DefaultHttpClient();
     }
 
-    public Data getGamesList(String game) {
-        Data data = null;
+    public GamesListData getGamesList(String game) {
+        GamesListData gamesListData = null;
         try {
             HttpGet request = new HttpGet("http://thegamesdb.net/api/GetGamesList.php?name=" + URLEncoder.encode(game, "UTF-8"));
             HttpResponse response = httpClient.execute(request);
-            JAXBContext context = JAXBContext.newInstance(Data.class);
+            JAXBContext context = JAXBContext.newInstance(GamesListData.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
-            data = (Data)unmarshaller.unmarshal(response.getEntity().getContent());
+            gamesListData = (GamesListData)unmarshaller.unmarshal(response.getEntity().getContent());
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } catch (JAXBException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-        return data;
+        return gamesListData;
+    }
+
+    public GameData getGame(int id) {
+        GameData gameData = null;
+        try {
+            HttpGet request = new HttpGet("http://thegamesdb.net/api/GetGame.php?id=" + id);
+            HttpResponse response = httpClient.execute(request);
+            JAXBContext context = JAXBContext.newInstance(GameData.class);
+            Unmarshaller unmarshaller = context.createUnmarshaller();
+            gameData = (GameData)unmarshaller.unmarshal(response.getEntity().getContent());
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (JAXBException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        return gameData;
     }
 }
