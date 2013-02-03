@@ -31,7 +31,7 @@
     <file path="$PROJECT_DIR$/../GameManager/pom.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359753441201" ignored="false" />
     <file path="/TimeOfTheDayServiceImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359911776498" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/porpoise/TheGamesDBJavaAPI/1.0-SNAPSHOT/TheGamesDBJavaAPI-1.0-SNAPSHOT.jar!/com/porpoise/thegamesdb/client/TheGamesDBClient.class" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359754214809" ignored="false" />
-    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359928878171" ignored="false" />
+    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359929000997" ignored="false" />
     <file path="/a.dummy" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359768611926" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/service/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
     <file path="/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
@@ -609,7 +609,11 @@
       <created>1359928895600</created>
       <updated>1359928895600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[ashsagoon] Updated GamesList, added getGame schemas">
+      <created>1359929005812</created>
+      <updated>1359929005812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
