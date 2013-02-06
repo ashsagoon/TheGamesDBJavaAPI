@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825ef896-5062-4d66-9a05-3e495c6fd1e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameArtData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/Platform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformImages.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatforms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameData.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGenre.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGenre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImage.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageBoxart.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageBoxart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanart.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanartOriginal.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanartOriginal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListData.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/TheGamesDBClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/TheGamesDBClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheGamesDBJavaAPI.iws" />
@@ -39,7 +30,7 @@
     <file path="$PROJECT_DIR$/../GameManager/pom.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359753441201" ignored="false" />
     <file path="/TimeOfTheDayServiceImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108758037" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/porpoise/TheGamesDBJavaAPI/1.0-SNAPSHOT/TheGamesDBJavaAPI-1.0-SNAPSHOT.jar!/com/porpoise/thegamesdb/client/TheGamesDBClient.class" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359754214809" ignored="false" />
-    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360034962895" ignored="false" />
+    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360109019432" ignored="false" />
     <file path="/a.dummy" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108490031" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/service/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
     <file path="/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
@@ -53,7 +44,7 @@
     <file path="/GameImages.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360034663563" ignored="false" />
     <file path="/GameImageBoxart.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359914528335" ignored="false" />
     <file path="/GameImageClearLogo.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359914610063" ignored="false" />
-    <file path="$PROJECT_DIR$/../GameManager/.idea/workspace.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108955290" ignored="false" />
+    <file path="$PROJECT_DIR$/../GameManager/.idea/workspace.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360109108615" ignored="false" />
     <file path="/GameImage.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360032743936" ignored="false" />
     <file path="/GameImageImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360032752586" ignored="false" />
     <file path="/GetArtData.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360106466304" ignored="false" />
@@ -661,7 +652,11 @@
       <created>1359929025678</created>
       <updated>1359929025678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[ashsagoon] Updated getGame. Added getArt, getPlatformsList, getPlatform and all associated schema.">
+      <created>1360109030245</created>
+      <updated>1360109030245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -732,7 +727,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ashsagoon] Updated GamesList, added getGame schemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ashsagoon] Updated getGame. Added getArt, getPlatformsList, getPlatform and all associated schema." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -746,6 +741,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="[ashsagoon] Updated GamesList, added getGame schemas" />
+    <MESSAGE value="[ashsagoon] Updated getGame. Added getArt, getPlatformsList, getPlatform and all associated schema." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
