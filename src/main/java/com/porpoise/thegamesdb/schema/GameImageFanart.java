@@ -11,25 +11,36 @@ import javax.xml.bind.annotation.XmlRootElement;
  * To change this template use File | Settings | File Templates.
  */
 @XmlRootElement(name = "fanart")
-public class GameImageFanart {
-    private GameImage original;
-    private String thumb;
-
-    @XmlElement(name = "original")
-    public GameImage getOriginal() {
-        return original;
-    }
-
-    public void setOriginal(GameImage original) {
-        this.original = original;
-    }
-
+public class GameImageFanart extends GameImage {
     @XmlElement(name = "thumb")
-    public String getThumb() {
-        return thumb;
-    }
-
     public void setThumb(String thumb) {
         this.thumb = thumb;
+    }
+
+    @XmlElement(name = "original")
+    public void setOriginal(GameImageFanartOriginal original) {
+        url = original.getUrl();
+        height = original.getWidth();
+        width = original.getHeight();
+    }
+
+    public void setUrl(String url) {
+        if(!url.equals("\n")) {
+            this.url = url;
+        }
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public GameImage toGameImage() {
+        GameImage gameImage = new GameImage();
+        gameImage.setHeight(height);
+        gameImage.setSide(side);
+        gameImage.setThumb(thumb);
+        gameImage.setUrl(url);
+        gameImage.setWidth(width);
+        return gameImage;
     }
 }

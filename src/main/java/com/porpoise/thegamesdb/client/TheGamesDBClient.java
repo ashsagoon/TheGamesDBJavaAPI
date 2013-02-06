@@ -1,8 +1,7 @@
 package com.porpoise.thegamesdb.client;
 
 
-import com.porpoise.thegamesdb.schema.GameData;
-import com.porpoise.thegamesdb.schema.GamesListData;
+import com.porpoise.thegamesdb.schema.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -59,4 +58,53 @@ public class TheGamesDBClient {
         }
         return gameData;
     }
+
+    public GameArtData getArt(int id) {
+        GameArtData gameArtData = null;
+        try {
+            HttpGet request = new HttpGet("http://thegamesdb.net/api/GetArt.php?id=" + id);
+            HttpResponse response = httpClient.execute(request);
+            JAXBContext context = JAXBContext.newInstance(GameArtData.class);
+            Unmarshaller unmarshaller = context.createUnmarshaller();
+            gameArtData = (GameArtData)unmarshaller.unmarshal(response.getEntity().getContent());
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (JAXBException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        return gameArtData;
+    }
+
+    public PlatformListData getPlatformsList() {
+        PlatformListData platformListData = null;
+        try {
+            HttpGet request = new HttpGet("http://thegamesdb.net/api/GetPlatformsList.php");
+            HttpResponse response = httpClient.execute(request);
+            JAXBContext context = JAXBContext.newInstance(PlatformListData.class);
+            Unmarshaller unmarshaller = context.createUnmarshaller();
+            platformListData = (PlatformListData)unmarshaller.unmarshal(response.getEntity().getContent());
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (JAXBException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        return platformListData;
+    }
+
+    public PlatformData getPlatform(int id) {
+        PlatformData platformData = null;
+        try {
+            HttpGet request = new HttpGet("http://thegamesdb.net/api/GetPlatform.php?id=" + id);
+            HttpResponse response = httpClient.execute(request);
+            JAXBContext context = JAXBContext.newInstance(PlatformData.class);
+            Unmarshaller unmarshaller = context.createUnmarshaller();
+            platformData = (PlatformData)unmarshaller.unmarshal(response.getEntity().getContent());
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (JAXBException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        return platformData;
+    }
+
 }

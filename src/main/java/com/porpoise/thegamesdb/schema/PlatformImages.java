@@ -5,19 +5,18 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
+ * Company: Porpoise Software
  * User: Terminus Est
- * Date: 2/3/13
- * Time: 11:56 AM
- * To change this template use File | Settings | File Templates.
+ * Date: 2/5/13
+ * Time: 5:53 PM
  */
 @XmlRootElement(name = "Images")
-public class GameImages {
+public class PlatformImages {
     private List<GameImageFanart> fanarts;
     private List<GameImage> boxarts;
-    private List<GameImage> clearLogos;
     private List<GameImage> banners;
-    private List<GameImageFanart> screenshots;
+    private List<GameImage> consolearts;
+    private List<GameImage> controllerarts;
 
     public List<GameImageFanart> getFanarts() {
         return fanarts;
@@ -28,39 +27,39 @@ public class GameImages {
         this.fanarts = fanarts;
     }
 
-    @XmlElement(name = "boxart")
     public List<GameImage> getBoxarts() {
         return boxarts;
     }
 
+    @XmlElement(name = "boxart")
     public void setBoxarts(List<GameImage> boxarts) {
         this.boxarts = boxarts;
     }
 
-    @XmlElement(name = "clearlogo")
-    public List<GameImage> getClearLogos() {
-        return clearLogos;
-    }
-
-    public void setClearLogos(List<GameImage> clearLogos) {
-        this.clearLogos = clearLogos;
-    }
-
-    @XmlElement(name = "banner")
     public List<GameImage> getBanners() {
         return banners;
     }
 
+    @XmlElement(name = "banner")
     public void setBanners(List<GameImage> banners) {
         this.banners = banners;
     }
 
-    public List<GameImageFanart> getScreenshots() {
-        return screenshots;
+    public List<GameImage> getConsolearts() {
+        return consolearts;
     }
 
-    @XmlElement(name = "screenshot")
-    public void setScreenshots(List<GameImageFanart> screenshots) {
-        this.screenshots = screenshots;
+    @XmlElement(name = "consoleart")
+    public void setConsolearts(List<GameImage> consolearts) {
+        this.consolearts = consolearts;
+    }
+
+    public List<GameImage> getControllerarts() {
+        return controllerarts;
+    }
+
+    @XmlElement(name = "controllerart")
+    public void setControllerarts(List<GameImage> controllerarts) {
+        this.controllerarts = controllerarts;
     }
 }
