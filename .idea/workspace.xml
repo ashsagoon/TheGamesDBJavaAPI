@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825ef896-5062-4d66-9a05-3e495c6fd1e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="DELETED" beforePath="E:\Development\Java\TheGamesDBJavaAPI\.idea\workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameData.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java" />
@@ -30,7 +29,7 @@
     <file path="$PROJECT_DIR$/../GameManager/pom.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360123547547" ignored="false" />
     <file path="/TimeOfTheDayServiceImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360290062685" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/porpoise/TheGamesDBJavaAPI/1.0-SNAPSHOT/TheGamesDBJavaAPI-1.0-SNAPSHOT.jar!/com/porpoise/thegamesdb/client/TheGamesDBClient.class" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359754214809" ignored="false" />
-    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360290336630" ignored="false" />
+    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360291247479" ignored="false" />
     <file path="/a.dummy" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360288407843" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/service/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
     <file path="/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
@@ -44,7 +43,7 @@
     <file path="/GameImages.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360233997155" ignored="false" />
     <file path="/GameImageBoxart.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359914528335" ignored="false" />
     <file path="/GameImageClearLogo.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359914610063" ignored="false" />
-    <file path="$PROJECT_DIR$/../GameManager/.idea/workspace.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360291076430" ignored="false" />
+    <file path="$PROJECT_DIR$/../GameManager/.idea/workspace.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360291193725" ignored="false" />
     <file path="/GameImage.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360032743936" ignored="false" />
     <file path="/GameImageImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360032752586" ignored="false" />
     <file path="/GetArtData.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360106466304" ignored="false" />
@@ -128,9 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/TheGamesDBClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="175" column="58" selection-start="8341" selection-end="8341" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,9 +145,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/UpdateItems.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,9 +163,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatform.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="24" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,14 +190,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/transformer/GameTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="155" column="18" selection-start="6605" selection-end="6605" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2371#2385#0" expanded="true" />
-                <element signature="e#2993#3001#0" expanded="true" />
-                <element signature="e#3956#3969#0" expanded="true" />
-                <element signature="e#4833#4850#0" expanded="true" />
-                <element signature="e#7326#7339#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,7 +198,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02977233">
+            <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.029668411">
               <folding />
             </state>
           </provider>
@@ -331,6 +317,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -512,7 +499,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -722,17 +708,20 @@
       <created>1360290342395</created>
       <updated>1360290342395</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[ashsagoon] Added base GamesDB types and lazy loading">
+      <created>1360291096172</created>
+      <updated>1360291096172</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,16 +730,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16115262" sideWeight="0.670282" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16435432" sideWeight="0.67099565" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23105656" sideWeight="0.670282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23105656" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.324295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -875,9 +865,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="24" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -905,9 +893,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/UpdateItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -921,9 +907,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/TheGamesDBClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="175" column="58" selection-start="8341" selection-end="8341" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,20 +921,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/transformer/GameTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="155" column="18" selection-start="6605" selection-end="6605" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2371#2385#0" expanded="true" />
-            <element signature="e#2993#3001#0" expanded="true" />
-            <element signature="e#3956#3969#0" expanded="true" />
-            <element signature="e#4833#4850#0" expanded="true" />
-            <element signature="e#7326#7339#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02977233">
+        <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.029668411">
           <folding />
         </state>
       </provider>
