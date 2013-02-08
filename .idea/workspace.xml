@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825ef896-5062-4d66-9a05-3e495c6fd1e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="E:\Development\Java\TheGamesDBJavaAPI\.idea\workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameData.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGenre.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGenre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageBoxart.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageBoxart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanart.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanartOriginal.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanartOriginal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListData.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheGamesDBJavaAPI.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108678804" ignored="false" />
-    <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/service/TimeOfTheDayServiceImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108825362" ignored="false" />
+    <file path="/fragment.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360290263369" ignored="false" />
+    <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/service/TimeOfTheDayServiceImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360290214499" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/net/thegamesdb/Data.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359752344794" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/net/thegamesdb/Game.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359752352723" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/thegamesdb/thegamesdb/Game.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359752496118" ignored="false" />
@@ -25,13 +25,13 @@
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/thegamesdb/Data.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359752515904" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/thegamesdb/schema/Game.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359752550047" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/thegamesdb/schema/Data.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359752550047" ignored="false" />
-    <file path="/TheGamesDBClient.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108694151" ignored="false" />
+    <file path="/TheGamesDBClient.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360289742889" ignored="false" />
     <file path="/pom.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359753440532" ignored="false" />
-    <file path="$PROJECT_DIR$/../GameManager/pom.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359753441201" ignored="false" />
-    <file path="/TimeOfTheDayServiceImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108758037" ignored="false" />
+    <file path="$PROJECT_DIR$/../GameManager/pom.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360123547547" ignored="false" />
+    <file path="/TimeOfTheDayServiceImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360290062685" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/porpoise/TheGamesDBJavaAPI/1.0-SNAPSHOT/TheGamesDBJavaAPI-1.0-SNAPSHOT.jar!/com/porpoise/thegamesdb/client/TheGamesDBClient.class" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359754214809" ignored="false" />
-    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360109019432" ignored="false" />
-    <file path="/a.dummy" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108490031" ignored="false" />
+    <file path="/Dummy.txt" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360290336630" ignored="false" />
+    <file path="/a.dummy" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360288407843" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/java/com/porpoise/gamemanager/web/service/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
     <file path="/TimeOfTheDayService.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775215668" ignored="false" />
     <file path="$PROJECT_DIR$/../GameManager/src/main/webapp/WEB-INF/applicationContext.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359775222622" ignored="false" />
@@ -41,10 +41,10 @@
     <file path="/GameGenre.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359912299453" ignored="false" />
     <file path="/GameImageFanartOriginal.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359914015705" ignored="false" />
     <file path="/GameImageFanart.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360035704613" ignored="false" />
-    <file path="/GameImages.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360034663563" ignored="false" />
+    <file path="/GameImages.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360233997155" ignored="false" />
     <file path="/GameImageBoxart.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359914528335" ignored="false" />
     <file path="/GameImageClearLogo.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1359914610063" ignored="false" />
-    <file path="$PROJECT_DIR$/../GameManager/.idea/workspace.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360109108615" ignored="false" />
+    <file path="$PROJECT_DIR$/../GameManager/.idea/workspace.xml" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360291076430" ignored="false" />
     <file path="/GameImage.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360032743936" ignored="false" />
     <file path="/GameImageImpl.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360032752586" ignored="false" />
     <file path="/GetArtData.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360106466304" ignored="false" />
@@ -55,6 +55,17 @@
     <file path="/PlatformData.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108069419" ignored="false" />
     <file path="/Platform.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108286174" ignored="false" />
     <file path="/PlatformImages.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360108546888" ignored="false" />
+    <file path="/GamesListGame.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360283403095" ignored="false" />
+    <file path="/UpdateItems.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360113300287" ignored="false" />
+    <file path="/GamesDBGame.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360285858748" ignored="false" />
+    <file path="/GameTransformer.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360289933937" ignored="false" />
+    <file path="/GamesDBGameDetails.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360281151284" ignored="false" />
+    <file path="/GamesDBImages.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360284952634" ignored="false" />
+    <file path="/GamesDBImage.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360285104738" ignored="false" />
+    <file path="/GamesDBPlatform.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360289246085" ignored="false" />
+    <file path="/GamesDBPlatformDetails.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360286709611" ignored="false" />
+    <file path="/GamesDBUpdate.java" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360289702840" ignored="false" />
+    <file path="/.gitignore" changelist="825ef896-5062-4d66-9a05-3e495c6fd1e4" time="1360290835555" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,10 +124,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TheGamesDBClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TheGamesDBClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/TheGamesDBClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="8" selection-start="3943" selection-end="3943" vertical-scroll-proportion="0.66900176">
+            <state line="175" column="58" selection-start="8341" selection-end="8341" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,10 +135,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlatformListData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListData.java">
+      <file leaf-file-name="GamesDBUpdate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+            <state line="14" column="26" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateItems.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/UpdateItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,35 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlatformData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformData.java">
+      <file leaf-file-name="GamesListData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Platform.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/Platform.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="18" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlatformImages.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformImages.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="34" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="16" column="24" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,7 +167,7 @@
       <file leaf-file-name="PlatformListPlatform.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="30" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+            <state line="17" column="24" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,46 +175,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameArtData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameArtData.java">
+      <file leaf-file-name="GamesListGame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GamesDBPlatform.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBPlatform.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="5" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTransformer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/transformer/GameTransformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="155" column="18" selection-start="6605" selection-end="6605" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2371#2385#0" expanded="true" />
+                <element signature="e#2993#3001#0" expanded="true" />
+                <element signature="e#3956#3969#0" expanded="true" />
+                <element signature="e#4833#4850#0" expanded="true" />
+                <element signature="e#7326#7339#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameImages.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="35" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02977233">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameGame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java">
+      <file leaf-file-name="GamesDBGame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="17" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlatformListPlatforms.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatforms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -241,22 +245,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageBoxart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageClearLogo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GetArtData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameArtData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamePlatform.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamePlatforms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamePlatformData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBGameDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBPlatformDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBImages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatforms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/Platform.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformImages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformPlatform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBPlatform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBUpdate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/TheGamesDBClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/transformer/GameTransformer.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -412,6 +416,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGamesDBJavaAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGamesDBJavaAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="porpoise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thegamesdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="schema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -454,6 +496,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGamesDBJavaAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGamesDBJavaAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -484,6 +540,8 @@
       <recent name="com.porpoise.thegamesdb.schema" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.porpoise.thegamesdb.client" />
+      <recent name="com.porpoise.thegamesdb" />
       <recent name="com.porpoise.thegamesdb.schema" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -656,7 +714,15 @@
       <created>1360109030245</created>
       <updated>1360109030245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[ashsagoon] Updated getGame. Added getArt, getPlatformsList, getPlatform and all associated schema.">
+      <created>1360109124133</created>
+      <updated>1360109124133</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[ashsagoon] Added base GamesDB types and lazy loading">
+      <created>1360290342395</created>
+      <updated>1360290342395</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -727,7 +793,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ashsagoon] Updated getGame. Added getArt, getPlatformsList, getPlatform and all associated schema." />
+    <option name="LAST_COMMIT_MESSAGE" value="[ashsagoon] Added base GamesDB types and lazy loading" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -742,6 +808,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="[ashsagoon] Updated GamesList, added getGame schemas" />
     <MESSAGE value="[ashsagoon] Updated getGame. Added getArt, getPlatformsList, getPlatform and all associated schema." />
+    <MESSAGE value="[ashsagoon] Added base GamesDB types and lazy loading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -751,88 +818,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageBoxart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="64" selection-start="287" selection-end="287" vertical-scroll-proportion="0.2977233">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanartOriginal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImageFanart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameArtData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatforms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -841,7 +829,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+        <state line="15" column="29" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatforms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="5" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -850,46 +856,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+        <state line="30" column="24" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/Platform.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformPlatform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="18" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0">
+        <state line="55" column="5" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GameImages.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformListPlatform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+        <state line="17" column="24" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/PlatformImages.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="34" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+        <state line="16" column="24" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/GamesListGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBPlatform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/schema/UpdateItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/TheGamesDBClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="8" selection-start="3943" selection-end="3943" vertical-scroll-proportion="0.66900176">
+        <state line="175" column="58" selection-start="8341" selection-end="8341" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/client/GamesDBGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/porpoise/thegamesdb/transformer/GameTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="18" selection-start="6605" selection-end="6605" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2371#2385#0" expanded="true" />
+            <element signature="e#2993#3001#0" expanded="true" />
+            <element signature="e#3956#3969#0" expanded="true" />
+            <element signature="e#4833#4850#0" expanded="true" />
+            <element signature="e#7326#7339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02977233">
+          <folding />
         </state>
       </provider>
     </entry>
