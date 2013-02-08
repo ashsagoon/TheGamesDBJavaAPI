@@ -1,39 +1,30 @@
-package com.porpoise.thegamesdb.schema;
+package com.porpoise.thegamesdb.client;
 
-import com.porpoise.thegamesdb.transformer.GameTransformer;
-
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
+ * Company: Porpoise Software
  * User: Terminus Est
- * Date: 2/3/13
- * Time: 11:04 AM
- * To change this template use File | Settings | File Templates.
+ * Date: 2/7/13
+ * Time: 5:33 PM
  */
-
-@XmlRootElement(name = "Game")
-public class GameGame {
+public class GamesDBGameDetails {
     private int id;
     private String gameTitle;
     private String platform;
-    private String rawReleaseDate;
     private Date releaseDate;
     private String overview;
     private String ESRB;
-    private List<GameGenre> Genres;
+    private List<String> genres;
     private String players;
     private String coop;
     private String youtube;
     private String publisher;
     private String developer;
     private double rating;
-    private GameImages gameImages;
+    private GamesDBImages images;
 
-    @XmlElement(name = "id")
     public int getId() {
         return id;
     }
@@ -42,7 +33,6 @@ public class GameGame {
         this.id = id;
     }
 
-    @XmlElement(name = "GameTitle")
     public String getGameTitle() {
         return gameTitle;
     }
@@ -51,23 +41,12 @@ public class GameGame {
         this.gameTitle = gameTitle;
     }
 
-    @XmlElement(name = "Platform")
     public String getPlatform() {
         return platform;
     }
 
     public void setPlatform(String platform) {
         this.platform = platform;
-    }
-
-    @XmlElement(name = "ReleaseDate")
-    public String getRawReleaseDate() {
-        return rawReleaseDate;
-    }
-
-    public void setRawReleaseDate(String rawReleaseDate) {
-        this.rawReleaseDate = rawReleaseDate;
-        releaseDate = GameTransformer.transform(rawReleaseDate);
     }
 
     public Date getReleaseDate() {
@@ -78,7 +57,6 @@ public class GameGame {
         this.releaseDate = releaseDate;
     }
 
-    @XmlElement(name = "Overview")
     public String getOverview() {
         return overview;
     }
@@ -87,7 +65,6 @@ public class GameGame {
         this.overview = overview;
     }
 
-    @XmlElement(name = "ESRB")
     public String getESRB() {
         return ESRB;
     }
@@ -96,16 +73,14 @@ public class GameGame {
         this.ESRB = ESRB;
     }
 
-    @XmlElement(name = "Genres")
-    public List<GameGenre> getGenres() {
-        return Genres;
+    public List<String> getGenres() {
+        return genres;
     }
 
-    public void setGenres(List<GameGenre> genres) {
-        Genres = genres;
+    public void setGenres(List<String> genres) {
+        this.genres = genres;
     }
 
-    @XmlElement(name = "Players")
     public String getPlayers() {
         return players;
     }
@@ -114,7 +89,6 @@ public class GameGame {
         this.players = players;
     }
 
-    @XmlElement(name = "Co-op")
     public String getCoop() {
         return coop;
     }
@@ -123,7 +97,6 @@ public class GameGame {
         this.coop = coop;
     }
 
-    @XmlElement(name = "Youtube")
     public String getYoutube() {
         return youtube;
     }
@@ -132,7 +105,6 @@ public class GameGame {
         this.youtube = youtube;
     }
 
-    @XmlElement(name = "Publisher")
     public String getPublisher() {
         return publisher;
     }
@@ -141,7 +113,6 @@ public class GameGame {
         this.publisher = publisher;
     }
 
-    @XmlElement(name = "Developer")
     public String getDeveloper() {
         return developer;
     }
@@ -150,7 +121,6 @@ public class GameGame {
         this.developer = developer;
     }
 
-    @XmlElement(name = "Rating")
     public double getRating() {
         return rating;
     }
@@ -159,12 +129,11 @@ public class GameGame {
         this.rating = rating;
     }
 
-    @XmlElement(name = "Images")
-    public GameImages getGameImages() {
-        return gameImages;
+    public GamesDBImages getImages() {
+        return images;
     }
 
-    public void setGameImages(GameImages gameImages) {
-        this.gameImages = gameImages;
+    public void setImages(GamesDBImages images) {
+        this.images = images;
     }
 }

@@ -13,7 +13,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "Data")
 public class PlatformData {
     private String baseImgUrl;
-    private Platform platform;
+    private PlatformPlatform platformPlatform;
 
     public String getBaseImgUrl() {
         return baseImgUrl;
@@ -24,12 +24,12 @@ public class PlatformData {
         this.baseImgUrl = baseImgUrl;
     }
 
-    public Platform getPlatform() {
-        return platform;
+    public PlatformPlatform getPlatformPlatform() {
+        return platformPlatform;
     }
 
     @XmlElement(name = "Platform")
-    public void setPlatform(Platform platform) {
-        this.platform = platform;
+    public void setPlatformPlatform(PlatformPlatform platformPlatform) {
+        this.platformPlatform = platformPlatform;
     }
 }

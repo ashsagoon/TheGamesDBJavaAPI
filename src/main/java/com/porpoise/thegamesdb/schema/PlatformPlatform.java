@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * Time: 5:47 PM
  */
 @XmlRootElement(name = "Platform")
-public class Platform {
+public class PlatformPlatform {
     private int id;
     private String platform;
     private String console;

@@ -1,23 +1,26 @@
-package com.porpoise.thegamesdb.schema;
-
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlValue;
+package com.porpoise.thegamesdb.client;
 
 /**
- * Created with IntelliJ IDEA.
+ * Company: Porpoise Software
  * User: Terminus Est
- * Date: 2/3/13
- * Time: 12:00 PM
- * To change this template use File | Settings | File Templates.
+ * Date: 2/7/13
+ * Time: 5:54 PM
  */
-public class GameImageBoxart {
-    private String side;
-    private int width;
-    private int height;
-    private String thumb;
-    private String url;
+public class GamesDBImage {
+    protected String side;
+    protected int width;
+    protected int height;
+    protected String thumb;
+    protected String url;
 
-    @XmlAttribute(name = "side")
+    public GamesDBImage(String side, int width, int height, String thumb, String url) {
+        this.side = side;
+        this.width = width;
+        this.height = height;
+        this.thumb = thumb;
+        this.url = url;
+    }
+
     public String getSide() {
         return side;
     }
@@ -26,7 +29,6 @@ public class GameImageBoxart {
         this.side = side;
     }
 
-    @XmlAttribute(name = "width")
     public int getWidth() {
         return width;
     }
@@ -35,7 +37,6 @@ public class GameImageBoxart {
         this.width = width;
     }
 
-    @XmlAttribute(name = "height")
     public int getHeight() {
         return height;
     }
@@ -44,7 +45,6 @@ public class GameImageBoxart {
         this.height = height;
     }
 
-    @XmlAttribute(name = "thumb")
     public String getThumb() {
         return thumb;
     }
@@ -53,7 +53,6 @@ public class GameImageBoxart {
         this.thumb = thumb;
     }
 
-    @XmlValue
     public String getUrl() {
         return url;
     }

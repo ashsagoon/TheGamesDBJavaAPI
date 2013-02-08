@@ -1,11 +1,10 @@
 package com.porpoise.thegamesdb.schema;
 
+import com.porpoise.thegamesdb.transformer.GameTransformer;
+
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,6 +20,7 @@ public class GamesListGame {
     private String rawReleaseDate;
     private Date releaseDate;
     private String platform;
+    private String thumb;
 
     @XmlElement(name = "id")
     public int getId() {
@@ -47,15 +47,7 @@ public class GamesListGame {
 
     public void setRawReleaseDate(String rawReleaseDate) {
         this.rawReleaseDate = rawReleaseDate;
-        try {
-            if(this.rawReleaseDate.matches("^\\d{2}/\\d{2}/\\d{4}")) {
-                this.releaseDate = new SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH).parse(this.rawReleaseDate);
-            } else if (this.rawReleaseDate.matches("^\\d{4}")) {
-                this.releaseDate = new SimpleDateFormat("yyyy", Locale.ENGLISH).parse(this.rawReleaseDate);
-            }
-        } catch (ParseException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+        releaseDate = GameTransformer.transform(rawReleaseDate);
     }
 
     @XmlElement(name = "Platform")
@@ -65,6 +57,23 @@ public class GamesListGame {
 
     public void setPlatform(String platform) {
         this.platform = platform;
+    }
+
+    public Date getReleaseDate() {
+        return releaseDate;
+    }
+
+    public void setReleaseDate(Date releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
+    @XmlElement(name = "thumb")
+    public String getThumb() {
+        return thumb;
+    }
+
+    public void setThumb(String thumb) {
+        this.thumb = thumb;
     }
 
     public String toString() {
